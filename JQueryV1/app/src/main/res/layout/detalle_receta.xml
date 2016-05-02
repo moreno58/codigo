@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/PageStyle"
+    android:scrollbars="vertical" >
+
+    <TextView
+        android:id="@+id/nombreReceta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Título"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        style="@style/h1" />
+
+    <TextView
+        android:id="@+id/ingreReceta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:text="Ingredientes"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/elaboReceta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elaboración"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

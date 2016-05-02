@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pptfondomultibluetooth"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.46" >
+
+        <LinearLayout
+            android:layout_width="110dp"
+            android:layout_height="match_parent" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/botonCrear"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:background="@drawable/boton_personalizado"
+                android:onClick="lanzarCrearjuego"
+                android:text="@string/crearjuego" />
+
+            <Button
+                android:id="@+id/botonRefrescarClientes"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/boton_personalizado"
+                android:onClick="refrescaConexiones"
+                android:text="@string/refrescarClientesjuego" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp" >
+    </ListView>
+
+</LinearLayout>

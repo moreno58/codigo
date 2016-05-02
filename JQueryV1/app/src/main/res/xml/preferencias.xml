@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ListPreference android:defaultValue="6" android:summary="@string/SummaryTable" android:entries="@array/tiposTableros" android:entryValues="@array/tiposTablerosValores" android:title="@string/tiposdetableros" android:key="@string/Tableros"/>
+    <EditTextPreference android:key="NombreJugador1" android:title="@string/Nameplayer1" android:summary="@string/Summarynameplayer1" android:defaultValue="Player 1"/>
+    <EditTextPreference android:title="@string/Nameplayer2" android:summary="@string/Sumarynameplayer2" android:key="Nombrejugador2" android:defaultValue="Player 2"/>
+    <CheckBoxPreference android:summary="@string/SoundPrefecencesSummary" android:title="@string/SoundPrefences" android:key="Sonido" android:defaultValue="true"/>
+
+    
+
+</PreferenceScreen>

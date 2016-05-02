@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    style="@style/PageStyle" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp" >
+
+        <EditText
+            android:id="@+id/inputText"
+            style="@style/InputText"
+            android:layout_weight="0.9"
+            android:inputType="text" >
+        </EditText>
+
+        <Button
+            android:id="@+id/btAddTextListaCompra"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.1"
+            android:text="@string/bt_add_text_lista_compra"
+            style="@style/OrangeButton" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tituloListaCompra"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/titulo_lista_compra"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#444546"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/listaCompra"
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp"
+        android:minHeight="200dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_height="200dp"
+        android:scrollbars="vertical" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btSaveLista"
+            style="@style/BlueButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/bt_save_lista_compra" />
+
+        <Button
+            android:id="@+id/btDeleteLista"
+            style="@style/RedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:minWidth="64dp"
+            android:text="@string/bt_delete_lista_compra" />
+
+    </LinearLayout>
+
+</LinearLayout>

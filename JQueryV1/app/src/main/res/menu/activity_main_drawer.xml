@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_modulos"
+            android:icon="@drawable/ic_list_24dp"
+            android:title="Modulos" />
+        <item
+            android:id="@+id/nav_ubicacion"
+            android:icon="@drawable/ic_pin_drop_24dp"
+            android:title="Ubicacion" />
+        <item
+            android:id="@+id/nav_audio"
+            android:icon="@drawable/ic_pin_drop_24dp"
+            android:title="Audio" />
+        <item
+            android:id="@+id/nav_practica"
+            android:icon="@drawable/ic_pin_drop_24dp"
+            android:title="Practicas" />
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_email_24dp"
+            android:title="Enviar correo" />
+        <item
+            android:id="@+id/nav_acercade"
+            android:icon="@drawable/ic_account_box_24dp"
+            android:title="Acerca de" />
+    </group>
+
+    <item android:title="Extras">
+        <menu>
+            <item
+                android:id="@+id/nav_calculator"
+                android:icon="@drawable/ic_smartphone_24dp"
+                android:title="Calculadora" />
+            <item
+                android:id="@+id/nav_conversor"
+                android:icon="@drawable/ic_dns_24dp"
+                android:title="Conversor" />
+
+            <item
+                android:id="@+id/nav_recetario"
+                android:icon="@drawable/ic_shopping_cart_24dp"
+                android:title="Recetario" />
+            <item
+                android:id="@+id/nav_pinguino"
+                android:icon="@drawable/ic_games_24dp"
+                android:title="Pinguinos al hielo" />
+            <item
+                android:id="@+id/nav_adivina"
+                android:icon="@drawable/ic_games_24dp"
+                android:title="Adivina la cancion" />
+            <item
+                android:id="@+id/nav_ppt"
+                android:icon="@drawable/ic_games_24dp"
+                android:title="Piedra, papel o tijera" />
+
+        </menu>
+    </item>
+
+</menu>

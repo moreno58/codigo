@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.edu.utng.jqueryv1">
+
+    <uses-sdk android:minSdkVersion="" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/launcher_jquery"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps"></activity>
+        <activity android:name=".LoginActividad"/>
+        <activity android:name=".SignUp"/>
+        <activity android:name=".QuizUnoActivity"/>
+        <activity android:name=".QuizDosActivity"/>
+        <activity android:name=".QuizTresActivity"/>
+        <activity android:name=".QuizCuatroActivity"/>
+        <activity android:name=".QuizCincoActivity"/>
+        <activity android:name=".ResultActivity"/>
+        <activity android:name=".ModulosActivity"/>
+        <activity android:name=".tabs.TabsActivity"/>
+        <activity android:name=".ThemesActivity"/>
+        <activity android:name=".videos.VideoActivity"/>
+        <activity android:name=".CalculadoraActivity"/>
+        <activity android:name=".AcercaDeActivity"/>
+        <activity android:name=".CorreoActivity"/>
+        <activity android:name=".videos.VideoActivityDos"/>
+        <activity android:name=".tabs.TabsActivityDos"/>
+        <activity android:name=".tabs.TabsActivityTres"/>
+        <activity android:name=".tabs.TabsActivityCuatro"/>
+        <activity android:name=".GraficaActivity"/>
+        <activity android:name=".recetario.ListaCompra"/>
+    <activity android:name=".recetario.Main" ></activity>
+    <activity android:name=".recetario.PerfilUsuario" ></activity>
+    <activity android:name=".recetario.PublicarReceta" ></activity>
+    <activity android:name=".recetario.RecetaDetalle" ></activity>
+    <activity android:name=".recetario.Recetas" ></activity>
+
+
+        <activity android:name=".juego1.PenguinsoniceMainActivity"/>
+        <activity android:name=".juego1.Preferencias"/>
+        <activity android:name=".juego1.Puntuaciones"/>
+        <activity android:name=".juego1.juegoActivity"/>
+        <activity android:name=".juego1.AboutmeActivity"/>
+        <activity android:name=".juego1.HelpActivity"/>
+
+        <activity android:name=".Euroconvert"/>
+        <activity android:name=".AudioActivity"/>
+        <activity android:name=".PruebasCodigoActivity"/>
+        <activity android:name=".MainActivityGps"/>
+
+        //PPT
+        <activity
+            android:name=".ppt.MainActivityPPT"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+
+        </activity>
+        <activity
+            android:name=".ppt.Unjugador"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".ppt.Multiplayer"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".ppt.JuegoClasico"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".ppt.juegoElementos"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        </activity>
+
+        <activity
+            android:name=".ppt.Bluetooth"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        </activity>
+
+        <activity
+            android:name=".ppt.Crearjuego"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".ppt.JuegoPorTurnos"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".ppt.JuegoClasicoPorTurnos"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".ppt.JuegoElementosPorTurnos"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".ppt.JuegoLagarto"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".ppt.JuegoLagartoPorTurnos"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".ppt.Ayuda_elementos"
+            android:label="@string/ayuda_elementos"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name=".ppt.Ayuda_ppt_clasico"
+            android:label="@string/ayuda_ppt_clasico"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name=".ppt.Ayuda_lagarto"
+            android:label="@string/ayuda_lagarto"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+
+
+    </application>
+
+</manifest>

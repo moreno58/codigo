@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_uno"
+    android:weightSum="1">
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/webViewUtng"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.73" />
+
+    <TextView
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txv_desarr"
+        android:text="@string/desarrollador"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/txv_name"
+        android:text="@string/name_des"/>
+    <TextView
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/txv_instituto"
+        android:text="@string/institucion"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/txv_esc"
+        android:text="@string/utng"/>
+
+    <TextView
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/txv_mat"
+        android:text="@string/materia"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="192dp"
+        android:layout_height="41dp"
+        android:id="@+id/txv_dapp"
+        android:text="@string/des"
+        android:layout_gravity="center" />
+    <TextView
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/txv_profesor"
+        android:text="@string/prof"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="206dp"
+        android:layout_height="41dp"
+        android:id="@+id/txv_name_prof"
+        android:text="@string/tacho"
+        android:layout_gravity="center" />
+</LinearLayout>

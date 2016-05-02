@@ -1,0 +1,277 @@
+<resources>
+    <string name="app_name">jQuery Mobile</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="action_ubication">Ubication</string>
+
+    <!-- Quiz -->
+
+
+    <string name="str_next">Siguiente</string>
+
+
+
+       <string name="title_activity_quiz">Quiz Questions</string>
+    <string name="question">Question 1. How is the first president of Nigeria?</string>
+    <string name="answer_one">King Ade</string>
+    <string name="answer_two"> olu Obasanjo</string>
+    <string name="answer_three">Jona Goodluck</string>
+    <string name="answer_four"> Atiku Abubakar</string>
+    <string name="next_questions"> Next Question</string>
+    <string name="previous_questions"> Previous Question</string>
+    <string name="txt_texto_bienvenida">JQuery Mobile es un Framework optimizado para dispositivos táctiles (también conocido como Framework móvil) que está siendo desarrollado actualmente por el equipo de proyectos de jQuery. En este curso puedes aprender lo basico acerca de jQuery Mobile. ¡Bienvenido!</string>
+    <string name="txt_introduccion">Introducción jQuery Mobile es un marco de trabajo magnífico para escribir las aplicaciones web móviles. Construido encima del popular jQuery y de la interfaz del usuario jQuery, jQuery Mobile es un marco de trabajo efectivo y unificado para escribir su aplicación web móvil. Con jQuery Mobile puede garantizar una apariencia y un comportamiento consistente a través de las diferentes plataformas móviles.</string>
+    <string name="themes">Themes</string>
+    <string name="change">Cambiar Color</string>
+    <string name="desarrollador">Desarrollador</string>
+    <string name="name_des">Jeanette Guadalupe Moreno Hernandez</string>
+    <string name="institucion">Institucion:</string>
+    <string name="utng">Universidad Tecnologica del Norte de Guanajuato</string>
+    <string name="materia">Materia:</string>
+    <string name="des">Desarrollo de Aplicaciones 3</string>
+    <string name="prof">Profesor:</string>
+    <string name="tacho">Anastacio Rodriguez G.</string>
+    <string name="user">Usuario</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="btn_aceptar">Aceptar</string>
+    <string name="btn_registrarse">Registrarse</string>
+    <string name="login">Iniciar Sesion</string>
+    <string name="acercade">Acerca de</string>
+    <string name="btn_start">Start</string>
+    <string name="tile_modulo2">Estructura de una página jQuery Mobile</string>
+    <string name="txt_primera">Una página típica de jQuery Mobile tiene tres secciones:\n
+        un encabezado, contenido y una sección al pie de página.\n
+        Ejemplo:\n
+     <![CDATA[
+        lt;div data-role="page" id="page1">\n
+    <div data-role="header">\n
+       <h1>HEADER</h1>\n
+    </div>\n
+    <div data-role="content">\n
+       <p>\n
+       CONTENT AREA\n
+       </p>\n
+    </div>\n
+    <div data-role="footer">\n
+       <h1>FOOTER</h1>\n
+    </div>\n
+    ]]>
+    </string>
+    <string name="Formatos">Formatos</string>
+    <string name="txt_formatos">Los formatos con un artefacto web común para publicar información a un servidor. jQuery Mobile es compatible con muchos componentes de formatos de interfaz del usuario: entradas de texto, de búsqueda, controles deslizantes, interruptor de conmutación flip, botones de radio, casillas de verificación, selección de menúes y formatos de temas. Todos pueden crearse fácilmente.</string>
+    <string name="txt_css">jQuery Mobile es compatible con una gran cantidad de transiciones basadas en CSS, que se encuentran en Tabla 2, que puede aplicarse a diálogos y páginas.</string>
+    <string name="txt_title_css">jQuery + CSS</string>
+    <string name="action_grafica">Grafica de Avances</string>
+
+    <!-- String recetario !-->
+
+    <string name="mi_perfil">Mi Perfil</string>
+    <string name="bienvenido">¡Bienvenido!</string>
+    <string name="bt_recetas">Ver recetas</string>
+    <string name="bt_lista">Lista de la compra</string>
+    <string name="bt_salir">Salir</string>
+    <string name="bt_add_text_lista_compra">Añadir</string>
+    <string name="titulo_lista_compra">Lista de la compra</string>
+    <string name="bt_save_lista_compra">Guardar lista</string>
+    <string name="bt_delete_lista_compra">Borrar lista</string>
+    <string name="msg_guardado">Guardada</string>
+    <string name="msg_borrado">Borrada</string>
+    <string name="titulo_listado_recetas">¿Tienes hambre?</string>
+    <string name="no_hay_recetas">No hay recetas</string>
+    <string name="titulo">Nombre</string>
+    <string name="ingredientes">Ingredientes</string>
+    <string name="elaboracion">Elaboración</string>
+    <string name="enviar">Enviar</string>
+    <string name="bt_publicar">Publicar receta</string>
+    <string name="dificultad">Dificultad</string>
+    <string name="facil">Fácil</string>
+    <string name="medio">Medio</string>
+    <string name="dificil">Difícil</string>
+
+
+    //Juego Pinguino
+
+    <string name="Exit">Salir</string>
+    <string name="Play">Jugar</string>
+    <string name="Preferences">Preferencias</string>
+    <string name="Aboutme">Acerca de</string>
+    <string name="Scores">Puntuaciones</string>
+    <string name="Title">Penguin on Ice</string>
+    <string name="Help">Ayuda</string>
+    <string name="Acercadetext">Juego realizado para la aplicacion jQuery Mobile. Basado de un juego real</string>
+    <string name="PosicionIncorrecta">Ilegal Position
+Try again!!</string>
+    <string name="jugador2inavilitado">Player2 can´t do more movements
+The next player is player 1 again</string>
+    <string name="jugador1inavilitado">Player1 can´t do more movements
+The next player is player 2 again</string>
+    <string name="Tableros">Tableros</string>
+    <string name="tiposdetableros">Table Type</string>
+    <string name="SummaryTable">Select one table type</string>
+    <string name="Nameplayer1">Name player 1</string>
+    <string name="Summarynameplayer1">Write a name Player 1</string>
+    <string name="Sumarynameplayer2">Write a name Player 2</string>
+    <string name="SoundPrefences">Sound</string>
+    <string name="SoundPrefecencesSummary">Check to enable/disebale Sound</string>
+    <string name="Score">Last Scores</string>
+    <string name="Nameplayer2">Name player 2</string>
+    <string name="cofiguraciones">Configuraciones</string>
+    <string name="tema">Tema</string>
+
+    //Conversor
+
+    <string name="hello">Hola!</string>
+
+    <string name="ast_tittle">Asteroids</string>
+    <string name="eur_tittle">Euroconverter</string>
+    <string name="opt_play">Play</string>
+    <string name="opt_preferences">Preferences</string>
+    <string name="opt_about">About</string>
+    <string name="opt_exit">Exit</string>
+    <string name="eurotext">Cantidad de Euros</string>
+    <string name="convertext">Convertir a pesos</string>
+    <string name="converted">Es igual a: </string>
+    <string name="msh">Verificando...</string>
+    <string name="edt_usuario">Nombre de usuario</string>
+    <string name="edt_contrasenia">Contraseña</string>
+    <string name="btn_acceder">Acceder</string>
+
+    //Juego PPT
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="onePlayer">One Player</string>
+    <string name="multiPlayer">Multiplayer</string>
+    <string name="salir">Exit</string>
+    <string name="juegoClasico">Classic</string>
+    <string name="juegoLagarto">Lizzard-Spock</string>
+    <string name="juegoElementos">Elements</string>
+    <string name="enelMovil">2 players</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="mensaje">Choose your option</string>
+    <string name="ganaste">You Win!</string>
+    <string name="empataste">You have tied!</string>
+    <string name="perdiste">You Lose! </string>
+    <string name="errorbluetooth">Bluetooth is not available</string>
+    <string name="noconectabluetooth">Bluetooth not enabled</string>
+    <string name="unirjuego">Join game</string>
+    <string name="crearjuego">Create game</string>
+    <string name="turnosegundojugador">Second player choose</string>
+    <string name="turnoprimerjugador">First player choose</string>
+    <string name="pierdeuno">Second player Win!</string>
+    <string name="ganauno">First player Win!</string>
+    <string name="empate">Match Drawn</string>
+    <string name="esperandosegundojugador">Waiting second player</string>
+    <string name="refrescarClientesjuego">Refresh games</string>
+    <string name="ayuda">Help</string>
+    <string name="ayuda_elementos">Help Elements Game</string>
+    <string name="ayuda_ppt_clasico">Help Classic Game</string>
+    <string name="ayuda_lagarto">Help Spock-Lizzard Game</string>
+    <string name="piedratijeras">Rock breaks scissors</string>
+    <string name="piedrapapel">Paper covers rock</string>
+    <string name="piedrafuego">Rock puts out fire</string>
+    <string name="piedraaire">Air erodes rock</string>
+    <string name="piedraagua">rock plunges in water</string>
+    <string name="tijeraspapel">Scissors cut paper</string>
+    <string name="tijerasfuego">Fire melts scissors</string>
+    <string name="tijerasesponja">Scissors kill sponge</string>
+    <string name="tijerasaire">Scissors cut air!</string>
+    <string name="tijerasagua">Water oxidizes scissors</string>
+    <string name="papelaire">Paper blowing in the wind</string>
+    <string name="papelesponja">Sponge torn paper</string>
+    <string name="papelfuego">Fire burn paper</string>
+    <string name="papelagua">Paper absorbs water</string>
+    <string name="aguafuego">Water extinguishes fire</string>
+    <string name="airefuego">Air extinguishes fire</string>
+    <string name="aireagua">Air pushes water</string>
+    <string name="esponjafuego">Fire burn sponge</string>
+    <string name="esponjaroca">Rock destroy sponge</string>
+    <string name="esponjaagua">Sponge absorbs water</string>
+    <string name="esponjaaire">Sponge capture air</string>
+    <string name="papellagarto">Lizard eats paper</string>
+    <string name="spocklagarto">Lizard kill spock</string>
+    <string name="piedralagarto">Rock crushes lizard</string>
+    <string name="piedraspock">Spock vaporizes rock</string>
+    <string name="tijeraslagarto">Scissors decapited lizard</string>
+    <string name="tijerasspock">Spock destroys scissors</string>
+    <string name="saludojugamos">What are we going to play?</string>
+    <string name="juguemosjuntos">lets play toguether!</string>
+    <string name="aquejugamos">What shall we play?</string>
+    <string name="recordatorio">Recuerda seguir con tu curso de jQuery Mobile</string>
+    <string name="txt_caract">Características de jQuery Mobile\n
+        Lo primero que debe quedarnos claro para describir jQuery Mobile es que no se trata de un nuevo framework creado desde cero. \n
+        Podemos entender a jQuery Mobile como un plugin para jQuery puesto que es un producto que está basado en el propio framework Javascript jQuery. Por tanto, aquellas personas que ya conocen jQuery no van a tener que aprender nada nuevo, sino aplicar sus conocimientos y desarrollar fácilmente aplicaciones para móviles. Esto significa una gran ventaja, puesto que hay muchas personas que conocen jQuery y que van a poder pasarse sin prácticamente ningún problema al desarrollo para dispositivos. Lo segundo que quiero señalar es que, si bien jQuery nos sirve para desarrollo de funcionalidades Javascript compatibles con todos los navegadores, jQuery Mobile va un poco más allá. No se trata simplemente de una capa para realizar código Javascript que funcione en todos los navegadores, sino un conjunto de herramientas que simplificará el proceso de crear páginas para móviles, desde la escritura del propio código HTML, la maquetación con CSS y la creación de efectos dinámicos con Javascript.</string>
+    <string name="txt_css_con">Bueno ¿Y qué hay de CSS? Pues tampoco es que tengas que escribir tu código CSS desde jQuery Mobile, sino que este framework dispondrá diversas herramientas CSS, también de manera automática, que podrás utilizar en tus desarrollos. Por poner dos ejemplos, con este framework tus componentes de formularios se estilizarán de manera automática, sustituyendo los feos elementos nativos de los navegadores de dispositivos móviles. Además, dispondrás de un pequeño framework CSS para poder hacer cosas como la maquetación a partir de una rejilla.</string>
+    <string name="txt_modu3">Creado sobre jQuery con arquitectura de jQueryUI:\n
+        Los propios creadores de jQuery usaron su experiencia para desarrollar el framework para móviles y además implementaron la arquitectura diseñada para las librerías de interfaces de usuario jQueryUI. \n
+        Por tanto se trata de un producto muy bien pensando, en base a la experiencia de años. Está desarrollado para trabajar con HTML5: de hecho, estamos obligados a hacer páginas HTML5 para aprovechar todas las características del framework.\n
+        *Repleto de automatismos: Si ya era fácil hacer Ajax en jQuery, todavía es más fácil en jQueryMobile. Si el framework capta que puede hacer una conexión Ajax en lugar de una convencional, lo hace automática por Ajax. Y eso es solo un ejemplo, también son automáticas las transiciones entre páginas, la personalización del aspecto de la página, etc.\n
+        *Preparado para dispositivos táctiles: Los dispositivos táctiles tienen cambios en la gestión de eventos y jQuery Mobile nos facilita la labor de adaptarnos a ellos.\n
+        *Personalización de temas: Igual que ocurría con las jQueryUI, el jQuery Mobile podemos elegir entre varios temas gráficos ya listos para aplicar al aspecto de nuestra página. Además, podemos crear nuestros propios temas personalizados.</string>
+
+    //palabras
+
+
+</resources>

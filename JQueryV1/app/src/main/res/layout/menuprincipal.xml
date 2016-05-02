@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mapa">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:padding="20dp"
+        android:background="@color/alpha"
+        android:src="@drawable/btn_modulo1"
+        android:layout_marginBottom="45dp"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_toLeftOf="@+id/button2"
+        android:layout_toStartOf="@+id/button2" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:padding="30dp"
+        android:background="@color/alpha"
+        android:src="@drawable/btn_modulo2"
+        android:layout_marginBottom="59dp"
+        android:layout_above="@+id/button3"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:padding="20dp"
+        android:background="@color/alpha"
+        android:src="@drawable/btn_modulo3"
+        android:layout_marginBottom="43dp"
+        android:layout_above="@+id/button5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:padding="20dp"
+        android:background="@color/alpha"
+        android:src="@drawable/btn_modulo4"
+        android:layout_marginBottom="43dp"
+        android:layout_alignBottom="@+id/button5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:background="@color/alpha"
+        android:src="@drawable/btn_quizfinal"
+        android:id="@+id/button5"
+        android:layout_marginBottom="39dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/button"
+        android:layout_toEndOf="@+id/button" />
+
+</RelativeLayout>

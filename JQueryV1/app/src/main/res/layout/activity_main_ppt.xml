@@ -1,0 +1,71 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/pptfondo"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="239dp"
+            android:layout_weight="0.26" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="33dp"
+                android:gravity="center"
+                android:text="@string/saludojugamos"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="214dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <Button
+                android:id="@+id/oneplayer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/boton_personalizado"
+                android:onClick="lanzarUnjugador"
+                android:text="@string/onePlayer" 
+                />
+
+            <Button
+                android:id="@+id/multiplayer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/boton_personalizado"
+                android:onClick="lanzarMultiJugador"
+                android:text="@string/multiPlayer" 
+                />
+
+            <Button
+                android:id="@+id/salida"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/boton_personalizado"
+                android:onClick="lanzarSalida"
+                android:text="@string/salir" 
+              />
+
+        </LinearLayout>
+
+    </LinearLayout>
